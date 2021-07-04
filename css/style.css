@@ -145,9 +145,99 @@ table {
   border-spacing: 0;
 }
 
-header {
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-sidebar-container {
+  /* width: 50px;
+  height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 30px;
+}
+
+.menu {
+  /* height: 400px; */
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.menu p {
+  /* position: relative; */
+  /* width: 300px; */
+  /* height: 700px; */
+  text-transform: uppercase;
+}
+
+.social-media-text {
+  /* transform: rotate(-90deg);
+
+  position: absolute;
+
+  height: 15px;
+  width: 100%;
+  left: -125px;
+  top: 60px;
+  text-align: left; */
+}
+
+.current-date {
+  /* transform: rotate(-90deg);
+
+  position: absolute;
+
+  
+  height: 15px;
+  width: 100px;
+  left: -125px;
+  bottom: 200px;
+  text-align: right; */
+}
+
+.social-media-buttons img {
+  width: 2rem;
+  padding: 1rem;
+}
+
+.instagram-btn {
+}
+
+.twitter-btn {
+}
+
+.facebook-btn {
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.header {
   /* width: 100vw; */
   padding: 1rem;
+}
+
+.hero-container {
+  /* background: url('/images/steve-jobs1.jpeg') no-repeat 100% 20%; */
+  /* background-size: 80vh; */
+  /* height: 85vh; */
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  display: flex;
+  flex-grow: 2;
+}
+
+.image-container {
+  display: flex;
+  flex-shrink: 1;
 }
 
 .navbar-top {
@@ -164,7 +254,7 @@ header {
   /* position: absolute; */
   display: flex;
   justify-content: center;
-  width: 80vw;
+  /* width: 80vw; */
 }
 
 .logo img {
@@ -175,7 +265,7 @@ header {
 
 .navbar-list {
   text-transform: uppercase;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .navbar-list ul {
@@ -190,69 +280,6 @@ header {
 
 .navbar-list a:hover {
   color: var(--lightGrey);
-}
-
-.hero-container {
-}
-
-.left-sidebar-container {
-  width: 50px;
-}
-
-.menu {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-}
-
-.menu p {
-  /* position: relative; */
-  width: 300px;
-  /* height: 700px; */
-  text-transform: uppercase;
-}
-
-.social-media-text {
-  transform: rotate(-90deg);
-  /* transform-origin: 0 100%; */
-  position: absolute;
-  /* line-height: 25px; */
-
-  /* z-index: 10; */
-  height: 15px;
-  width: 100%;
-  left: -125px;
-  top: 60px;
-  text-align: left;
-}
-
-.current-date {
-  transform: rotate(-90deg);
-  /* transform-origin: 0 100%; */
-  position: absolute;
-  /* line-height: 25px; */
-
-  /* z-index: 10; */
-  height: 15px;
-  width: 100px;
-  left: -125px;
-  bottom: 200px;
-  text-align: right;
-}
-
-.social-media-buttons img {
-  width: 2rem;
-  padding: 1rem;
-}
-
-.instagram-btn {
-}
-
-.twitter-btn {
-}
-
-.facebook-btn {
 }
 
 footer {

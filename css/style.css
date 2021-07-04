@@ -145,18 +145,51 @@ table {
   border-spacing: 0;
 }
 
-.header {
+header {
+  /* width: 100vw; */
+  padding: 1rem;
 }
 
-.navbar-top,
-a {
+.navbar-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-top a {
   text-decoration: none;
   color: var(--darkGrey);
 }
 
 .logo {
-  width: 40px;
-  color: ;
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+.logo img {
+  color: var(--darkGrey);
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar-list {
+  text-transform: uppercase;
+  width: 100vw;
+}
+
+.navbar-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar-list li {
+  margin: 1rem 1.5rem;
+}
+
+.navbar-list a:hover {
+  color: var(--lightGrey);
 }
 
 .hero-container {

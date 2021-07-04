@@ -196,18 +196,54 @@ header {
 }
 
 .left-sidebar-container {
+  width: 50px;
 }
 
 .menu {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.menu p {
+  /* position: relative; */
+  width: 300px;
+  /* height: 700px; */
+  text-transform: uppercase;
 }
 
 .social-media-text {
+  transform: rotate(-90deg);
+  /* transform-origin: 0 100%; */
+  position: absolute;
+  /* line-height: 25px; */
+
+  /* z-index: 10; */
+  height: 15px;
+  width: 100%;
+  left: -125px;
+  top: 60px;
+  text-align: left;
 }
 
 .current-date {
+  transform: rotate(-90deg);
+  /* transform-origin: 0 100%; */
+  position: absolute;
+  /* line-height: 25px; */
+
+  /* z-index: 10; */
+  height: 15px;
+  width: 100px;
+  left: -125px;
+  bottom: 200px;
+  text-align: right;
 }
 
-.social-media-buttons {
+.social-media-buttons img {
+  width: 2rem;
+  padding: 1rem;
 }
 
 .instagram-btn {

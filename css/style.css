@@ -219,14 +219,46 @@ header {
 .facebook-btn {
 }
 
+footer {
+  height: 10vh;
+  color: var(--lightGrey);
+}
+
 .developer-info-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
 }
 
 .developer-name {
 }
 
-.copyright {
+.developer-more-projects {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  line-height: normal;
+  padding: 1.5rem;
+  justify-content: center;
 }
 
-.copyright-text {
+/* fix it with JS */
+.developer-more-projects a:hover {
+  color: var(--justWhite);
+}
+
+.developer-more-projects img {
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+footer span img {
+  width: 3rem;
+}
+
+.copyright {
+  line-height: 1.2;
+  font-size: 0.8rem;
+  color: var(--darkGrey);
 }
